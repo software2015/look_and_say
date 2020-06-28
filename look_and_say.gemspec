@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = LookAndSay::VERSION
   spec.authors       = ["Sherzodbek Ortikjonov"]
   spec.email         = ["hhll69241@gmail.com"]
-
+  spec.license       = 'MIT'
   spec.summary       = %q{look_and_say is the implementation of look and say algorithm}
   spec.description   = %q{look_and_say generates look and say sequence}
   spec.homepage      = "https://github.com/software2015/look_and_say"
@@ -33,6 +33,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.17"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
