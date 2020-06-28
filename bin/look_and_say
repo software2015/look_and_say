@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'look_and_say'
+
+number = LookAndSay::LookAndSay.new
+
+puts "Enter number of sequences to be generated, biggest allowed number is 20."
+sequence_count = gets.chomp.to_i
+puts "Sequence: \n"
+number.look_and_say(sequence_count)
