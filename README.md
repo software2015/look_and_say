@@ -24,10 +24,13 @@ Or just run:
 ### On console
 
 Run:
+
 	look_and_say
+
 And the program asks to enter number of sequences to be generated
 
 ### In code
+
 Add look_and_say module:
 
 	require 'look_and_say'
