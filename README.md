@@ -2,6 +2,9 @@
 
 This is gem for generating look and say sequences. Rspec is used for testing.
 
+## Requirements
+
+	ruby >= 2.5.0
 
 ## Installation
 
