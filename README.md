@@ -22,6 +22,10 @@ Or just run:
 
     $ gem install look_and_say
 
+## Run tests
+
+	rspec
+
 ## Usage
 
 ### On console
